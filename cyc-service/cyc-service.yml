@@ -1,0 +1,8 @@
+server:
+  applicationContextPath: /cyc/rest
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
